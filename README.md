@@ -59,9 +59,6 @@
 
 مشکلات یا پیشنهادها را از طریق [Issues](https://github.com/znxn7717/bitnetmarket-payment-gateway-woocommerce/issues) گزارش دهید.
 
-## لایسنس
-این افزونه تحت [لایسنس عمومی عمومی GNU v3.0 یا بالاتر](https://www.gnu.org/licenses/gpl-3.0.en.html) منتشر شده است.
-
 ## پشتیبانی
 - برای مشکلات خاص بیت‌نت‌مارکت: از تلگرام (https://t.me/bitnetmarket_support) ارتباط بگیرید.  
 - برای باگ‌های افزونه: [Issues](https://github.com/znxn7717/bitnetmarket-payment-gateway-woocommerce/issues) در GitHub باز کنید.
