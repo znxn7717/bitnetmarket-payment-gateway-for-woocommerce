@@ -37,7 +37,7 @@ final class Bitnetmarket_Gateway_Blocks extends AbstractPaymentMethodType {
     public function get_payment_method_data() {
         return [
             'title' => $this->gateway->title,
-            'description' => $this->gateway->description ?? 'پرداخت از طریق بیت‌نت‌مارکت',
+            'description' => $this->gateway->description ?? __('پرداخت از طریق بیت‌نت‌مارکت', 'bitnetmarket-payment-gateway-for-woocommerce'),
             'icon' => WOO_BITNETMARKET_URL . 'assets/images/icon.png',
         ];
     }

@@ -1,5 +1,5 @@
 const bitnetmarket_settings = window.wc.wcSettings.getSetting("bitnetmarket_data", {});
-const bitnetmarket_label = window.wp.htmlEntities.decodeEntities(bitnetmarket_settings.title) || window.wp.i18n.__("Bitnetmarket", "bitnetmarket-gateway");
+const bitnetmarket_label = window.wp.htmlEntities.decodeEntities(bitnetmarket_settings.title) || window.wp.i18n.__("Bitnetmarket", "bitnetmarket-payment-gateway-for-woocommerce");
 
 const Bitnetmarket_icon = Object(window.wp.element.createElement)("img", {
     src: bitnetmarket_settings.icon,
@@ -14,7 +14,7 @@ const bitnetmarket_label_with_icon = window.wp.element.createElement("span", nul
 
 const bitnetmarket_Content = () => {
     return window.wp.htmlEntities.decodeEntities(
-        bitnetmarket_settings.description || "پرداخت امن از طریق بیت‌نت‌مارکت"
+        bitnetmarket_settings.description || window.wp.i18n.__("پرداخت امن از طریق بیت‌نت‌مارکت", "bitnetmarket-payment-gateway-for-woocommerce")
     );
 };
 
