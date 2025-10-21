@@ -2,7 +2,7 @@
 /*
 Plugin Name: BitnetMarket Payment Gateway for WooCommerce
 Plugin URI: https://github.com/znxn7717/bitnetmarket-payment-gateway-for-woocommerce
-Description: درگاه پرداخت بیت‌نت‌مارکت امکان پذیرش پرداخت‌های رمزارزی را به سادگی و امنیت به فروشگاه شما اضافه می‌کند. با استفاده از این افزونه می‌توانید رمزارزهای مختلف را به عنوان روش پرداخت در سایت خود فعال کرده و تجربه خریدی مدرن، سریع و بدون مرز برای مشتریان‌تان فراهم کنید
+Description: درگاه پرداخت بیت‌نت‌مارکت امکان پذیرش پرداخت‌های رمزارزی را به سادگی و امنیت به فروشگاه شما اضافه می‌کند. با استفاده از این افزونه می‌توانید رمزارزهای مختلف را به عنوان روش پرداخت در فروشگاه خود فعال کرده و تجربه خریدی مدرن، سریع و بدون مرز برای مشتریان‌تان فراهم کنید
 Version: 1.0.0
 Author: BitnetMarket
 Author URI: https://github.com/znxn7717/bitnetmarket-payment-gateway-for-woocommerce
