@@ -1,7 +1,7 @@
 # درگاه پرداخت بیت‌نت‌مارکت برای ووکامرس
 
 [![لایسنس: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![تست‌شده تا ووکامرس](https://img.shields.io/badge/WooCommerce-9.0-green)](https://woocommerce.com)
+[![تست‌شده تا ووکامرس](https://img.shields.io/badge/WooCommerce-10.2-green)](https://woocommerce.com)
 
 افزونه درگاه پرداخت ووکامرس که با پردازش پرداخت رمزارزی بیت‌نت‌مارکت ادغام می‌شود. به راحتی رمزارزهای مختلف را در فروشگاه آنلاین خود بپذیرید با تراکنش‌های امن و بدون مرز.
 
