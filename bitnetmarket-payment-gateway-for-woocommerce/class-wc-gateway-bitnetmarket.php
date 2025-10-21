@@ -339,8 +339,8 @@ if (class_exists('WC_Payment_Gateway') && !class_exists('WC_Gateway_Bitnetmarket
         public function admin_notice_missing_seller_id() {
             $seller_id = $this->settings['seller_id'];
             if (empty($seller_id) && 'yes' === $this->settings['enabled']) {
-                // translators: %s is the admin settings URL.
                 $message = sprintf(
+                    // translators: %s is the admin settings URL.
                     __('شناسه فروشنده بیت‌نت‌مارکت خالی است. <a href="%s">اینجا</a> تنظیم کنید.', 'bitnetmarket-payment-gateway-for-woocommerce'),
                     esc_url(admin_url('admin.php?page=wc-settings&tab=checkout&section=bitnetmarket'))
                 );
