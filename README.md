@@ -18,8 +18,8 @@
 - PHP ۷.۴+
 
 ## نصب
-۱. آخرین نسخه را از [صفحه Releases](https://github.com/znxn7717/bitnetmarket-payment-gateway-woocommerce/releases) دانلود کنید.  
-۲. پوشه `bitnetmarket-payment-gateway-woocommerce` را در دایرکتوری `/wp-content/plugins/` آپلود کنید.  
+۱. آخرین نسخه را از [صفحه Releases](https://github.com/znxn7717/bitnetmarket-payment-gateway-for-woocommerce/releases) دانلود کنید.  
+۲. پوشه `bitnetmarket-payment-gateway-for-woocommerce` را در دایرکتوری `/wp-content/plugins/` آپلود کنید.  
 ۳. افزونه را از منوی 'افزونه‌ها' در وردپرس فعال کنید.  
 ۴. به **ووکامرس > تنظیمات > پرداخت‌ها > بیت‌نت‌مارکت** بروید و درگاه را فعال کنید.  
 ۵. **شناسه فروشنده** خود را وارد کنید (از [seller.bitnetmarket.com](https://seller.bitnetmarket.com) دریافت کنید).  
@@ -57,9 +57,9 @@
 ۴. به شاخه push کنید (`git push origin feature/AmazingFeature`).  
 ۵. Pull Request باز کنید.  
 
-مشکلات یا پیشنهادها را از طریق [Issues](https://github.com/znxn7717/bitnetmarket-payment-gateway-woocommerce/issues) گزارش دهید.
+مشکلات یا پیشنهادها را از طریق [Issues](https://github.com/znxn7717/bitnetmarket-payment-gateway-for-woocommerce/issues) گزارش دهید.
 
 ## پشتیبانی
 - برای مشکلات خاص بیت‌نت‌مارکت: از [تلگرام](https://t.me/bitnetmarket_support) ارتباط بگیرید.  
-- برای باگ‌های افزونه: [Issues](https://github.com/znxn7717/bitnetmarket-payment-gateway-woocommerce/issues) در GitHub باز کنید.
+- برای باگ‌های افزونه: [Issues](https://github.com/znxn7717/bitnetmarket-payment-gateway-for-woocommerce/issues) در GitHub باز کنید.
 

@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: درگاه پرداخت بیت‌نت‌مارکت برای ووکامرس
-Plugin URI: https://github.com/znxn7717/bitnetmarket-payment-gateway-woocommerce
+Plugin Name: BitnetMarket Payment Gateway for WooCommerce
+Plugin URI: https://github.com/znxn7717/bitnetmarket-payment-gateway-for-woocommerce
 Description: درگاه پرداخت بیت‌نت‌مارکت امکان پذیرش پرداخت‌های رمزارزی را به سادگی و امنیت کامل به فروشگاه اینترنتی شما اضافه می‌کند. با استفاده از این افزونه می‌توانید رمزارزهای مختلف را به عنوان روش پرداخت در سایت خود فعال کرده و تجربه خریدی مدرن، سریع و بدون مرز برای مشتریان‌تان فراهم کنید
 Version: 1.0.0
 Author: BitnetMarket
-Author URI: https://github.com/znxn7717/bitnetmarket-payment-gateway-woocommerce
+Author URI: https://github.com/znxn7717/bitnetmarket-payment-gateway-for-woocommerce
 Requires at least: 5.0
 Tested up to: 6.7
 WC requires at least: 6.0
@@ -56,6 +56,6 @@ function bitnetmarket_register_payment_method_type() {
 add_action('admin_notices', 'bitnetmarket_woocommerce_missing_notice');
 function bitnetmarket_woocommerce_missing_notice() {
     if (!class_exists('WC_Payment_Gateway')) {
-        echo '<div class="error notice"><p>' . __('افزونه "درگاه پرداخت بیت‌نت‌مارکت برای ووکامرس" نیاز به نصب و فعال بودن ووکامرس دارد', 'bitnetmarket-gateway') . '</p></div>';
+        echo '<div class="error notice"><p>' . esc_html(__('افزونه "درگاه پرداخت بیت‌نت‌مارکت برای ووکامرس" نیاز به نصب و فعال بودن ووکامرس دارد', 'bitnetmarket-payment-gateway-for-woocommerce')) . '</p></div>';
     }
 }
